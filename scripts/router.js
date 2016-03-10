@@ -7,14 +7,14 @@ angular.module('logApp')
         $routeProvider
             .when('/', {
                 templateUrl: 'views/appList.html',
-                controller: 'appListCtrl',
-                authenticate: true
+                controller: 'appListCtrl'
+                //authenticate: true
 
             })
             .when('/login', {
                 templateUrl: 'views/login.html',
-                controller: 'LoginCtrl',
-                authenticate: true
+                controller: 'LoginCtrl'
+                //authenticate: true
             })
             .when('/about', {
                 templateUrl: 'views/about.html',
@@ -23,13 +23,13 @@ angular.module('logApp')
             })
             .when('/log', {
                 templateUrl: 'views/log.html',
-                controller: 'LogCtrl',
-                authenticate: true
+                controller: 'LogCtrl'
+                //authenticate: true
             })
             .when('/code', {
                 templateUrl: 'views/code.html',
-                controller: 'CodeCtrl',
-                authenticate: true
+                controller: 'CodeCtrl'
+                //authenticate: true
             })
             .when('/userList', {
                 templateUrl: 'views/userList.html',

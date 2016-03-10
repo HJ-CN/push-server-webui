@@ -3,4 +3,4 @@
  */
 
 
-var url = 'http://ch.dev.selcome.com';
+var url = '';
